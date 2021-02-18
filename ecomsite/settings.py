@@ -38,7 +38,10 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
+
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 ROOT_URLCONF = 'ecomsite.urls'
 
@@ -66,8 +69,12 @@ WSGI_APPLICATION = 'ecomsite.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'df2tcrgb1on6cp',
+        'USER': 'jrqbsixjofvpin',
+        'PASSWORD': '0dd00e2d78a4d9d16e869f51e4ab16309c9bfb81bbe88e1afa79b366cf705983',
+        'HOST': 'ec2-54-90-13-87.compute-1.amazonaws.com',
+        'PORT': '5432',
     }
 }
 
