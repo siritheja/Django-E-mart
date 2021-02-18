@@ -12,7 +12,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'sekp2)hp8b5s^%$d2@f1z#kxv7)h^q&0ov%j0vysxjkf6&!#$b'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ["djangomart.herokuapp.com",'localhost']
 
