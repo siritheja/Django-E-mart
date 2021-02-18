@@ -14,7 +14,7 @@ SECRET_KEY = 'sekp2)hp8b5s^%$d2@f1z#kxv7)h^q&0ov%j0vysxjkf6&!#$b'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["https://djangomart.herokuapp.com/",'localhost']
+ALLOWED_HOSTS = ["djangomart.herokuapp.com",'localhost']
 
 
 # Application definition
