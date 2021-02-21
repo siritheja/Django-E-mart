@@ -122,7 +122,7 @@ STATICFILES_DIRS=[
 ]
 
 MEDIA_ROOT = os.path.join(BASE_DIR,'media')
-MEDIA_URL = '/home/psiritheja@gmail.com/djangomart/media/' #'/media/'
+MEDIA_URL = '/media/'
 
 LOGIN_REDIRECT_URL = 'shop:index'
 LOGIN_URL = 'login'
