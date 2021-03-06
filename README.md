@@ -71,7 +71,7 @@ then use localhost/8000 to view the site.
 
 ## To Do
 1. Add payment options.
-2. Add a better vizualization.
+2. Add a better vizualization with bootstrap.
 
 ## Technologies Used
 
