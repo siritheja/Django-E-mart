@@ -34,7 +34,7 @@ Link :- https://djangomart.herokuapp.com/
 
 ## Technical Aspect
 This project is divided into two parts:
-1. Admin part for uploading , deleting and adding items.
+1. Admin part for adding, updating and deleting items.
 2. Normal user creation, login and logout , viewing items, adding to cart and checkout items.
 
 ## Installation
